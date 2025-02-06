@@ -1,24 +1,19 @@
 // Room data
 const rooms = [
   {
-    image: "assets/room1.jpg",
-    name: "Premium Room",
-    price: 299,
+    image: "/assets/Habitaciones Triples.JPG",
+    name: "Habitaciones Triples",
+    price: 60,
   },
   {
-    image: "assets/room2.jpg",
-    name: "Deluxe Suite",
-    price: 399,
+    image: "/assets/Habitaciones Matrimoniales.JPG",
+    name: "Habitaciones Matrimoniales",
+    price: 25,
   },
   {
-    image: "assets/room3.jpg",
-    name: "Executive Room",
-    price: 499,
-  },
-  {
-    image: "assets/room4.jpg",
-    name: "Presidential Suite",
-    price: 899,
+    image: "/assets/Habitaciones Dobles.JPG",
+    name: "Habitaciones Dobles",
+    price: 35,
   },
 ];
 
@@ -34,7 +29,7 @@ function populateRooms() {
             <div class="room-image">
                 <img src="${room.image}" alt="${room.name}">
             </div>
-            <h4>${room.name}</h4>
+            <h4 style = "padding-top:0.5rem; ">${room.name}</h4>
             <p>Starting from</p>
             <p class="price">$${room.price}/night</p>
             <button class="btn btn-outline">Book now →</button>
@@ -138,9 +133,9 @@ function initScrollMenuColor() {
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > 100) {
-      menuBar.style.backgroundColor = "rgba(255, 255, 255, 1)";
+      menuBar.style.backgroundColor = "rgb(34, 47, 30,0.425)";
     } else {
-      menuBar.style.backgroundColor = "rgba(255, 255, 255, 0.9)";
+      menuBar.style.backgroundColor = "rgba(34, 47, 30)";
     }
   });
 }

@@ -1,0 +1,29 @@
+# Query: hero
+# ContextLines: 1
+
+8 results - 2 files
+
+index.html:
+  49  
+  50:   <!-- Cover Section -->
+  51:   <section class="cover">
+  52:     <div class="cover-content">
+  53        <h1>Hostal Galapagos</h1>
+
+css\main.css:
+  20  
+  21: /* Cover Section */
+  22: .cover {
+  23    height: 60vh;
+
+  30  
+  31: .cover::before {
+  32    content: "";
+
+  40  
+  41: .cover-content {
+  42    position: relative;
+
+  48  
+  49: .cover h1 {
+  50    font-size: 3.5rem;

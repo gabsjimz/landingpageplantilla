@@ -123,10 +123,19 @@ body {
 }
 
 /* Rooms Section */
+.Habitaciones {
+  max-width: 1200px; /* O el ancho que necesites */
+  margin: 0 auto; /* Centra el contenedor en la pantalla */
+  display: flex; /* Permite el uso de justify-content */
+  justify-content: left; /* Centra el contenido */
+}
+
 .room-grid {
+  max-width: 2000px; /* Ajusta según necesites */
+  margin: 0 auto; /* Centra el grid */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  gap: 3rem;
   padding: 4rem 0;
 }
 

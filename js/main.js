@@ -26,7 +26,7 @@ function populateRooms() {
     roomCard.className = "room-card";
 
     roomCard.innerHTML = `
-            <div class="room-image">
+            <div class="room-image" onclick="irAVista()" style = "cursor:pointer">
                 <img src="${room.image}" alt="${room.name}">
             </div>
             <h4 style="padding-top:0.5rem">${room.name}</h4>
@@ -159,3 +159,9 @@ window.addEventListener("scroll", () => {
     header.classList.remove("scrolled");
   }
 });
+
+// cambiar vista
+
+function irAVista() {
+  window.location.href = "room.html";
+}

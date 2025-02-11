@@ -48,3 +48,5 @@ const habitaciones = [
       "Al alojarte en la habitación 20 de nuestro Hostal, podrás elegir entre las vistas que ofrece la vibrante Gran Vía o la autenticidad de la calle Montera. 22 metros cuadrados con cama King distribuidos para vivir el Madrid más auténtico y genuino.",
   },
 ];
+
+export default habitaciones;
